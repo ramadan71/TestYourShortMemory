@@ -15,7 +15,7 @@ function reset() {
   started = false;
   var currentYear = new Date().getFullYear();
   $("footer").html("Created By Ashraf Ramadan @ " + currentYear);
-  //$("h1").html("Press A Key to Start");
+  $("h1").html("Press A Key to Start");
 }
 
 // add click event handler to the buttons
@@ -97,3 +97,4 @@ function GameOver() {
   playSound("wrong");
   $("h1").html("Game Over press any key to continue.");
 }
+
